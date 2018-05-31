@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#calculator {
+    top: 20%;
+    margin: 50px auto;
+    width: 400px;
+    height: 360px;
+    box-shadow: 0 2px 8px;
+    border-radius: 2px;
+    padding: 25px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    font-size: 28px;
+    padding: 4px;
+    text-align: right;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#keyboard {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #D5D5D5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button:active {
+    background-color: darkgray;
+}
+
+.number {
+    background-color: #F3F3F3;
+    font-weight: 400;
+}
+
+.number:active {
+    background-color: lightgray;
+}
+
+.equal-sign {
+    background-color: #4488F6;
+    color: white;
+}
+
+.equal-sign:active {
+    background-color: #3266ba;
+}
