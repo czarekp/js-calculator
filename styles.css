@@ -64,12 +64,12 @@ button:active {
     background-color: lightgray;
 }
 
-.equal-sign {
+#equal-sign {
     background-color: #4488F6;
     color: white;
 }
 
-.equal-sign:active {
+#equal-sign:active {
     background-color: #3266ba;
 }
 
